@@ -15,26 +15,20 @@ def example_function():  # Define the function
     print("Greetings")
 Calling a Function
 To invoke a function, use the function's name followed by parentheses.
-python
-Copy
-Edit
+
 def example_function():
     print("Greetings")
 
 example_function()  # Call the function
 Returning Multiple Values (Tuple Return)
 
-python
-Copy
-Edit
+
 def location():
     return 5, 15  # Return a tuple
 a, b = location()
 print(a, b)
 Practice
-python
-Copy
-Edit
+
 def welcome():
     print("Hello, welcome to the coding platform!")
     
